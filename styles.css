@@ -126,6 +126,20 @@ iframe
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1200px) {
 body
 {
@@ -234,6 +248,11 @@ button
     padding: 20px;
     border-radius: 20px;
     color: #000000;
+}
+
+.FR iframe {
+    max-width: 720px;
+    width: 100%;
 }
 
 .EN
