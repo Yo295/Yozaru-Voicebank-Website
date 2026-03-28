@@ -3,6 +3,8 @@ body
     font-family: Arial, sans-serif;
     background-color: #00b7ff;
     background-image: url('background08.jpg');
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .title
@@ -29,6 +31,7 @@ h1
     display: flex;
     flex-direction: row;
     gap: 20px;
+    
 }
 
 .presentation-text
@@ -53,7 +56,7 @@ h1
 
 .portrait-image
 {
-    max-width: 50%;
+    max-width: 400px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -74,13 +77,12 @@ h1
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 500px;
 }
 
 button
 {
     background-color: #007acc;
-    color: white;
+    color: #000000;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -88,5 +90,26 @@ button
     font-size: 16px;
 }
 
+.JP
+{
+    background-color: #00aeffb0;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000000;
+}
 
+.FR
+{
+    background-color: #008cffb0;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000000;
+}
 
+.EN
+{
+    background-color: #006effb0;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000000;
+}
