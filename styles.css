@@ -119,17 +119,12 @@ button
 
 iframe
 {
-border-radius: 20px;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
 }
+
 }
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 1200px) {
 body
@@ -248,4 +243,12 @@ button
     border-radius: 20px;
     color: #000000;
 }
+
+iframe
+{
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+}
+
 }
