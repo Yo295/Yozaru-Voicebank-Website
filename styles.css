@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1200px) {
 body
 {
     font-family: Arial, sans-serif;
@@ -112,4 +113,133 @@ button
     padding: 20px;
     border-radius: 20px;
     color: #000000;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #00b7ff;
+    background-image: url('background08.jpg');
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title
+{
+    text-align: center;
+    background-color: #ffffffa1;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+h1
+{
+    color: #000000;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.content
+{
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.presentation-text
+{
+    font-size: 18px;
+    line-height: 1.6;
+    align-self: flex-start;
+    background-color: #ffffffa1;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.portrait
+{
+    max-width: 1000px;
+    height: auto;
+    background-color: #ffffffa1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.portrait-image
+{
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.voicebanks
+{
+    background-color: #ffffffa1;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button
+{
+    background-color: #007acc;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.JP
+{
+    background-color: #00aeffb0;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000000;
+}
+
+.FR
+{
+    background-color: #008cffb0;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000000;
+}
+
+.EN
+{
+    background-color: #006effb0;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000000;
+}
 }
