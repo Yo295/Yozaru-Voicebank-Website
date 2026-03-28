@@ -170,7 +170,7 @@ h1
 .content
 {
     margin: 20px auto;
-    padding: 20px;
+    padding: 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
