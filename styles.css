@@ -98,6 +98,7 @@ button
     border-radius: 20px;
     color: #000000;
     display: flex;
+    gap: 60px;
 }
 
 .FR
