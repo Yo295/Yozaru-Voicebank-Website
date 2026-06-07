@@ -142,12 +142,31 @@ iframe
     width: auto;
 }
 
+.fanarts
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 500px;
+    height: auto;
+}
+
+.fanart
+{
+    background-color: #ffffffa1;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    max-width: 100%;
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 
 
-
-
+}
 
 
 
